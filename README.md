@@ -10,10 +10,14 @@ Run the script like this:
 
 When you run this wrapper script it will call the run_prs_pipeline.sh script like this:
 
-Usage: ./run_prs_pipeline.sh
--p <phenotype_name>
--g <gwas_sumstats_path>
+Usage:
+
+```
+./run_prs_pipeline.sh \
+-p <phenotype_name> \
+-g <gwas_sumstats_path> \
 -m <prs scoring method(s)>
+```
 
 Required arguments: -p Phenotype name (e.g. MDD, SCZ) -g Path to GWAS summary statistics -m Method to run: ldpred2 prscs prsice2 sbayesrc all
 
