@@ -23,5 +23,5 @@ Required arguments: -p Phenotype name (e.g. MDD, SCZ) -g Path to GWAS summary st
 
 Example:
 ```
-./run_prs_pipeline.sh -p MDD -g gwas/MDD.sumstats.gz -m all
+./run_prs_pipeline.sh -p MDD -g /root/persistent/sumstats_harmonized/MDD.sumstats.gz -m all
 ```
